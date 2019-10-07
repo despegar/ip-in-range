@@ -1,13 +1,16 @@
 {
-  "name": "@jcamelis/ip-in-range",
+  "name": "@despegar/ip-in-range",
   "version": "1.0.0",
   "description": "check if an ip address is between a range",
   "main": "src/index.js",
   "scripts": {
     "test": "jasmine"
   },
-  "author": "jcamelis@gmail.com",
+  "author": "jcamelis@despegar.com",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://backoffice-secure.despegar.com/nexus/repository/npm-hosted"
+  },
   "devDependencies": {
     "benchmark": "^2.1.4",
     "jasmine": "^3.4.0"
